@@ -1,0 +1,51 @@
+body {
+    background-color: pink;
+}
+
+#one {
+    text-align: center;
+    color: gray;
+    font-family: georgia;
+    font-size: 15px;
+}
+
+#two {
+    text-align: center;
+    color: gray;
+    font-family: courier;
+    font-size: 15px;
+}
+
+#dog img {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    float: left
+}
+
+#woofer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#woofer img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p.dotted {
+    border-style: dotted;
+    text-align: center;
+    border-radius: 25px;
+    background: peachpuff;
+    padding: 20px; 
+    width: 200px;
+}
